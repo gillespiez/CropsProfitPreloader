@@ -1,0 +1,129 @@
+<svg width="263" height="159" viewBox="0 0 263 159" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+    #rearTyre {
+        transform-origin: 64.9343px 105.5px;
+        position: relative;
+        animation: spinoffPulse 1s infinite linear;
+    
+    }
+
+    #frontTyre {
+        transform-origin: 192.772px 123.5px;
+        position: relative;
+        animation: spinoffPulse 1s infinite linear;
+      
+    }
+    
+    #tractorBody {
+        position: relative;
+        transform-origin: right center;
+        animation: bobbing .5s infinite ease-in-out forwards alternate;
+    }
+
+    #light {
+        position: relative;
+        transform-origin: right center;
+        animation: flicker .5s infinite ease-in-out forwards alternate;
+    }
+
+<!-- keyframes -->
+<!-- wheels -->
+    @keyframes spinoffPulse {
+        0% { transform:rotate(0deg); }
+        100% { transform:rotate(100deg);  }
+    }
+    
+<!-- body   -->
+    @keyframes bobbing {
+        0%{
+            transform: rotate(0) translateY(0);
+        }
+        100%{
+            transform: rotate(0.2deg) translateY(1px);
+        }
+    }
+<!-- light  -->
+   @keyframes flicker {
+        0% {fill: #FF9000;
+        transform: rotate() translateY(0px);}
+        100% {fill: #FFCB6B;
+        transform: rotate(0.2deg) translateY(2px);}
+    }
+</style>
+<!-- body  -->
+
+<path id="tractorBody" d="M102.088 58.2952C119.523 54.3889 143.766 54.242 165.787 56.0224C176.763 56.9098 187.107 58.2694 195.674 59.8505C204.315 61.4455 210.923 63.2265 214.568 64.8818C216.585 65.7983 217.967 67.7356 218.614 71.1179C219.271 74.5483 219.062 79.0259 218.198 84.1175C216.476 94.2614 212.332 105.887 208.918 114.344C206.53 120.259 200.665 124 194.101 124L109.092 124C99.7028 124 92.0916 116.389 92.0916 107V72.2656C92.0916 65.4374 96.0544 59.6472 102.088 58.2952Z" fill="#2987A5" stroke="black" stroke-width="6"/>
+<rect id="tractorBody" x="51.1258" y="8.57895" width="89.6048" height="118.421" fill="#2987A5"/>
+<path id="tractorBody" d="M142 59L176 60L192 62L200 63.5L205.5 65L142 65L142 59Z" fill="#FF9000"/>
+<path id="tractorBody" d="M176.276 66L179.662 73.8404" stroke="black" stroke-width="5" stroke-linecap="round"/>
+<path id="tractorBody" d="M168.276 66L171.662 73.8404" stroke="black" stroke-width="5" stroke-linecap="round"/>
+<path id="tractorBody" d="M160.276 66L163.662 73.8404" stroke="black" stroke-width="5" stroke-linecap="round"/>
+<path id="light" d="M133 6C133 9.31371 130.314 12 127 12C123.686 12 121 9.31371 121 6C121 2.68629 123.686 0 127 0C130.314 0 133 2.68629 133 6Z" fill="#FF9000"/>
+<path id="tractorBody" d="M53.061 8.83594L140.731 9.14001L141.217 105.853H124L121 86L116 75L110.5 66L104.264 58.6406L91.8938 49.9184L76.6528 45.8996L63.1079 44.9061H53.061V8.83594Z" fill="#D4ECFA"/>
+
+<!-- these still disappear -->
+<line x1="3" y1="-3" x2="37" y2="-3" transform="matrix(0.755726 0.654889 -0.787004 0.616948 85.292 19.4969)" stroke="#F7FBFE" stroke-width="6" stroke-linecap="round"/>
+<line x1="3" y1="-3" x2="42.9258" y2="-3" transform="matrix(0.755726 0.654889 -0.787004 0.616948 81.7646 29.5563)" stroke="#F7FBFE" stroke-width="6" stroke-linecap="round"/>
+<!-- <path id="tractorBody" d="M 115 25" stroke="#F7FBFE" stroke-width="6" stroke-linecap="round"/>
+<path id="tractorBody" d="M160.276 66L163.662 73.8404"  stroke="#F7FBFE" stroke-width="6" stroke-linecap="round"/> -->
+
+<rect id="tractorBody" x="46.0001" y="7.15143" width="100.684" height="3.37223" rx="1.68611" fill="black" stroke="black" stroke-width="4.08107"/>
+<rect id="tractorBody" x="109" y="122" width="63" height="5" fill="black" stroke="black" stroke-width="4"/>
+<rect id="tractorBody" x="51.3739" y="9.66385" width="3.37382" height="53.7102" fill="black" stroke="black" stroke-width="4"/>
+<rect id="tractorBody" x="139.093" y="10.4902" width="3.37382" height="116.51" fill="black" stroke="black" stroke-width="4"/>
+<rect id="tractorBody" x="124" y="105" width="17" height="3" fill="black" stroke="black" stroke-width="4"/>
+<rect id="tractorBody" x="125.598" y="113.953" width="15.1822" height="3.30524" fill="black"/>
+<path id="tractorBody" d="M18.0001 69C34.5001 34.5 129.5 30.5 123.5 123" stroke="black" stroke-width="8" stroke-linecap="round"/>
+<path id="tractorBody" d="M151.5 133.5C149.5 101.5 167.5 84.5 192 84.5" stroke="black" stroke-width="8" stroke-linecap="round"/>
+
+<!-- rear tyre -->
+<circle id="rearTyre" cx="64.9343" cy="105.5" r="50.5816" transform="rotate(-180 64.9343 105.5)" fill="black"/>
+<circle id="rearTyre" cx="65.0001" cy="105" r="27" transform="rotate(-180 65.0001 105)" fill="#FF9000"/>
+<circle id="rearTyre" cx="64.8504" cy="104.85" r="21.0272" transform="rotate(-180 64.8504 104.85)" fill="#5F810D"/>
+<ellipse id="rearTyre" cx="64.8504" cy="105.161" rx="7.26393" ry="6.80994" transform="rotate(-180 64.8504 105.161)" fill="#FF9000"/>
+<circle id="rearTyre" cx="64.4473" cy="154.623" r="4.37725" transform="rotate(-180 64.4473 154.623)" fill="black"/>
+<circle id="rearTyre" cx="64.4473" cy="56.3773" r="4.37725" transform="rotate(-180 64.4473 56.3773)" fill="black"/>
+<circle id="rearTyre" cx="81.2483" cy="151.66" r="4.37725" transform="rotate(160 81.2483 151.66)" fill="black"/>
+<circle id="rearTyre" cx="47.6463" cy="59.3397" r="4.37725" transform="rotate(160 47.6463 59.3397)" fill="black"/>
+<circle id="rearTyre" cx="96.0228" cy="143.13" r="4.37725" transform="rotate(140 96.0228 143.13)" fill="black"/>
+<circle id="rearTyre" cx="32.8718" cy="67.8697" r="4.37725" transform="rotate(140 32.8718 67.8697)" fill="black"/>
+<circle id="rearTyre" cx="106.989" cy="130.061" r="4.37725" transform="rotate(120 106.989 130.061)" fill="black"/>
+<circle id="rearTyre" cx="21.9058" cy="80.9385" r="4.37725" transform="rotate(120 21.9058 80.9385)" fill="black"/>
+<circle id="rearTyre" cx="112.824" cy="114.03" r="4.37725" transform="rotate(100 112.824 114.03)" fill="black"/>
+<circle id="rearTyre" cx="16.0709" cy="96.9697" r="4.37725" transform="rotate(100 16.0709 96.9697)" fill="black"/>
+<circle id="rearTyre" cx="47.6463" cy="151.66" r="4.37725" transform="rotate(-160 47.6463 151.66)" fill="black"/>
+<circle id="rearTyre" cx="81.2483" cy="59.3397" r="4.37725" transform="rotate(-160 81.2483 59.3397)" fill="black"/>
+<circle id="rearTyre" cx="32.8718" cy="143.13" r="4.37725" transform="rotate(-140 32.8718 143.13)" fill="black"/>
+<circle id="rearTyre" cx="96.0228" cy="67.8697" r="4.37725" transform="rotate(-140 96.0228 67.8697)" fill="black"/>
+<circle id="rearTyre" cx="21.9058" cy="130.061" r="4.37725" transform="rotate(-120 21.9058 130.061)" fill="black"/>
+<circle id="rearTyre" cx="106.989" cy="80.9384" r="4.37725" transform="rotate(-120 106.989 80.9384)" fill="black"/>
+<circle id="rearTyre" cx="16.0709" cy="114.03" r="4.37725" transform="rotate(-100 16.0709 114.03)" fill="black"/>
+<circle id="rearTyre" cx="112.824" cy="96.9696" r="4.37725" transform="rotate(-100 112.824 96.9696)" fill="black"/>
+
+<!-- front tyre  -->
+<circle id="frontTyre" cx="192.772" cy="123.5" r="31.6726" transform="rotate(-180 192.772 123.5)" fill="black"/>
+<circle id="frontTyre" cx="193.5" cy="123.5" r="16.5" transform="rotate(-180 193.5 123.5)" fill="#FF9000"/>
+<circle id="frontTyre" cx="193.266" cy="123.266" r="12.9175" transform="rotate(-180 193.266 123.266)" fill="#5F810D"/>
+<ellipse id="frontTyre" cx="193.266" cy="123.457" rx="4.46239" ry="4.18349" transform="rotate(-180 193.266 123.457)" fill="#FF9000"/>
+<circle id="frontTyre" cx="192.467" cy="154.259" r="2.7409" transform="rotate(-180 192.467 154.259)" fill="black"/>
+<circle id="frontTyre" cx="192.467" cy="92.7409" r="2.7409" transform="rotate(-180 192.467 92.7409)" fill="black"/>
+<circle id="frontTyre" cx="202.987" cy="152.404" r="2.7409" transform="rotate(160 202.987 152.404)" fill="black"/>
+<circle id="frontTyre" cx="181.947" cy="94.5959" r="2.7409" transform="rotate(160 181.947 94.5959)" fill="black"/>
+<circle id="frontTyre" cx="212.239" cy="147.063" r="2.7409" transform="rotate(140 212.239 147.063)" fill="black"/>
+<circle id="frontTyre" cx="172.695" cy="99.9371" r="2.7409" transform="rotate(140 172.695 99.9371)" fill="black"/>
+<circle id="frontTyre" cx="219.105" cy="138.88" r="2.7409" transform="rotate(120 219.105 138.88)" fill="black"/>
+<circle id="frontTyre" cx="165.829" cy="108.12" r="2.7409" transform="rotate(120 165.829 108.12)" fill="black"/>
+<circle id="frontTyre" cx="222.759" cy="128.841" r="2.7409" transform="rotate(100 222.759 128.841)" fill="black"/>
+<circle id="frontTyre" cx="162.175" cy="118.159" r="2.7409" transform="rotate(100 162.175 118.159)" fill="black"/>
+<circle id="frontTyre" cx="181.947" cy="152.404" r="2.7409" transform="rotate(-160 181.947 152.404)" fill="black"/>
+<circle id="frontTyre" cx="202.987" cy="94.5959" r="2.7409" transform="rotate(-160 202.987 94.5959)" fill="black"/>
+<circle id="frontTyre" cx="172.695" cy="147.063" r="2.7409" transform="rotate(-140 172.695 147.063)" fill="black"/>
+<circle id="frontTyre" cx="212.239" cy="99.9371" r="2.7409" transform="rotate(-140 212.239 99.9371)" fill="black"/>
+<circle id="frontTyre" cx="165.829" cy="138.88" r="2.7409" transform="rotate(-120 165.829 138.88)" fill="black"/>
+<circle id="frontTyre" cx="219.105" cy="108.12" r="2.7409" transform="rotate(-120 219.105 108.12)" fill="black"/>
+<circle id="frontTyre" cx="162.175" cy="128.841" r="2.7409" transform="rotate(-100 162.175 128.841)" fill="black"/>
+<circle id="frontTyre" cx="222.759" cy="118.159" r="2.7409" transform="rotate(-100 222.759 118.159)" fill="black"/>
+
+<!-- path  -->
+<line x1="2" y1="157" x2="261" y2="157" stroke="#FF9000" stroke-width="4" stroke-linecap="round"/>
+</svg>
